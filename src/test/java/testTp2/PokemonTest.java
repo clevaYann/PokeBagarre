@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PokemonTest {
 
     @Test
-    void 1_premierVainqueurAvecMeilleureAttaque() {
+    void test1_premierVainqueurAvecMeilleureAttaque() {
         // Arrange
         Pokemon p1 = new Pokemon("Pikachu", "url1", new Stats(50, 30));
         Pokemon p2 = new Pokemon("Bulbizarre", "url2", new Stats(40, 30));
